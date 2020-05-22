@@ -1,0 +1,25 @@
+{
+  "name": "u-maps",
+  "version": "1.0.0",
+  "description": "You need to install types definition of the libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsprite/u-maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsprite/u-maps/issues"
+  },
+  "homepage": "https://github.com/devsprite/u-maps#readme",
+  "dependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/googlemaps": "^3.39.6",
+    "faker": "^4.1.0"
+  }
+}
