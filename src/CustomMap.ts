@@ -1,9 +1,10 @@
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number;
     lng: number;
   };
   markerContent(): string;
+  color: string;
 }
 
 export class CustomMap {
@@ -34,6 +35,6 @@ export class CustomMap {
 
     marker.addListener('click', () => {
       infoWindow.open(this.googleMap, marker);
-    })
+    });
   }
 }
