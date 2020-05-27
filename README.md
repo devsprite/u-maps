@@ -3,6 +3,7 @@
 You need to install types definition of the libraries.
 
 ```
-npm install faker
-npm install @types/faker
+sudo npm install -g parcel
+npm install
+parcel index.html
 ```
